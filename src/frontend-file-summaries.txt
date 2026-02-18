@@ -1,0 +1,23 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete one-page website with all 10 sections in the required order, including navigation, sticky mobile CTA bar, and footer.",
+  "frontend/src/components/marketing/TopNav.tsx": "Sticky navigation bar with smooth scroll anchor links to all sections, responsive mobile menu, and prominent call-to-action button, displaying \"Shree Ram Holidays – Tour & Travel Company\" as the brand name.",
+  "frontend/src/components/marketing/StickyMobileCtaBar.tsx": "Mobile-only persistent bottom bar with Call Now and WhatsApp buttons for easy conversion on small screens.",
+  "frontend/src/components/marketing/sections/HeroSection.tsx": "Hero section with H1 headline \"Best Katra Taxi Service & Tour Packages\", travel-themed background image, prominent CTAs (Call/WhatsApp), and key statistics.",
+  "frontend/src/components/marketing/sections/AboutSection.tsx": "About section highlighting the agency's four key strengths with the updated heading \"About Shree Ram Holidays – Tour & Travel Company\".",
+  "frontend/src/components/marketing/sections/TourPackagesSection.tsx": "Tour packages section displaying 5 destination cards (Katra Vaishno Devi, Kashmir, Himachal, Leh Ladakh, Amritsar) with descriptions, highlights, and Book Now CTAs.",
+  "frontend/src/components/marketing/sections/ServicesSection.tsx": "Services section listing all 7 travel services including Katra taxi service, airport pickup, sightseeing, family tours, honeymoon packages, group tours, and customized planning.",
+  "frontend/src/components/marketing/sections/VehicleFleetSection.tsx": "Vehicle fleet section showcasing 4 vehicle types (Sedan, SUV, Innova, Tempo Traveller) with capacity, features, and quality assurances about clean AC vehicles and professional drivers.",
+  "frontend/src/components/marketing/sections/WhyChooseUsSection.tsx": "Why Choose Us section with 5 benefit cards highlighting local expertise, affordable pricing, safe travel, 24/7 support, and trusted service.",
+  "frontend/src/components/marketing/sections/PopularRoutesSection.tsx": "Popular routes section displaying 5 key routes (Katra to Srinagar, Jammu to Katra, Katra to Amritsar, Katra to Manali, Leh Ladakh) with Call and WhatsApp CTAs for each route.",
+  "frontend/src/components/marketing/sections/ReviewsSection.tsx": "Customer reviews section with 6 realistic 5-star testimonials, with the first review updated to mention \"Shree Ram Holidays – Tour & Travel Company\".",
+  "frontend/src/components/marketing/sections/GallerySection.tsx": "Travel gallery section displaying 5 responsive images (Vaishno Devi, Kashmir, Leh Ladakh, Himachal, vehicles) with lazy loading and hover effects.",
+  "frontend/src/components/marketing/sections/ContactSection.tsx": "Contact section with contact details, WhatsApp CTA, Google Map with updated iframe title \"Shree Ram Holidays – Tour & Travel Company Location\", and the ContactInquiryForm component.",
+  "frontend/src/components/marketing/Footer.tsx": "Footer component with business info, quick links, contact details, and required caffeine.ai attribution with UTM tracking, showing \"Shree Ram Holidays – Tour & Travel Company\" in the heading and copyright text.",
+  "frontend/src/index.css": "Global styles with warm neutral OKLCH color palette (terracotta/earth tones), smooth scrolling, and consistent design tokens for the travel/pilgrimage theme.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color system (success green for WhatsApp, warning yellow for stars), Inter font family, and custom design tokens.",
+  "frontend/index.html": "HTML entry point with SEO-optimized title, meta description, keywords, Open Graph tags, and JSON-LD structured data for local business, all updated to use \"Shree Ram Holidays – Tour & Travel Company\" as the business name.",
+  "frontend/src/hooks/useQueries.ts": "Minimal queries file as the website is static with no backend data requirements.",
+  "frontend/src/backend.d.ts": "TypeScript interface for backend canister methods with the original submitContactForm signature (name, email, message).",
+  "frontend/src/hooks/useSubmitContactForm.ts": "React Query mutation hook that submits contact form data to the backend actor, concatenating phone number into the message field to work with the existing 3-parameter backend signature.",
+  "frontend/src/components/marketing/contact/ContactInquiryForm.tsx": "Self-contained contact inquiry form component with English labels, client-side validation, inline error messages, and loading/success/error UI states using shadcn components."
+}

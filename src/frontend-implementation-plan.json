@@ -1,0 +1,69 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Rename business to Shree Ram Holidays – Tour & Travel Company",
+  "requirements": [
+    {
+      "id": "REQ-20",
+      "summary": "Replace all visible UI references of the old business name with “Shree Ram Holidays – Tour & Travel Company”.",
+      "acceptanceCriteria": [
+        "Top navigation brand text shows “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "Footer business name and copyright text show “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "No remaining instances of the text “Maa Bhagwati Tour And Travel” appear in the rendered UI."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/marketing/TopNav.tsx",
+          "operation": "modify",
+          "description": "Update the navbar brand text to the exact new business name “Shree Ram Holidays – Tour & Travel Company”, keeping all call/WhatsApp links unchanged."
+        },
+        {
+          "path": "frontend/src/components/marketing/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the footer business name occurrences (section heading and copyright line) to “Shree Ram Holidays – Tour & Travel Company”, keeping phone/email/WhatsApp links unchanged."
+        },
+        {
+          "path": "frontend/src/components/marketing/sections/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Replace the About section heading text that references the old business name with “About Shree Ram Holidays – Tour & Travel Company”."
+        },
+        {
+          "path": "frontend/src/components/marketing/sections/ReviewsSection.tsx",
+          "operation": "modify",
+          "description": "Update any review copy that explicitly mentions the old business name so it reads “Shree Ram Holidays – Tour & Travel Company”, without altering other review content."
+        }
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "summary": "Update SEO metadata and structured data to use “Shree Ram Holidays – Tour & Travel Company”.",
+      "acceptanceCriteria": [
+        "frontend/index.html <title> uses “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "OpenGraph and Twitter title tags (where present) use “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "The JSON-LD LocalBusiness \"name\" field in frontend/index.html is updated to “Shree Ram Holidays – Tour & Travel Company”."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update SEO-facing strings to the new business name: HTML <title>, og:title, twitter:title, and JSON-LD LocalBusiness name. Ensure any metadata fields that include the old name are replaced while keeping phone number +919906109003 unchanged."
+        }
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "summary": "Update accessibility/embedded content attributes that reference the old business name to the new business name.",
+      "acceptanceCriteria": [
+        "The Google Maps iframe title in the Contact section uses “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "No remaining instances of “Maa Bhagwati Tour And Travel” exist in static attributes like title/aria-label/alt where they refer to the business name."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/marketing/sections/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Update the Google Maps iframe title (and any other static accessibility-related attributes that refer to the business name) to “Shree Ram Holidays – Tour & Travel Company”, keeping the existing map src and WhatsApp link unchanged."
+        }
+      ]
+    }
+  ]
+}

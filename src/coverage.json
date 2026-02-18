@@ -1,0 +1,72 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T06:05:59.873Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 3,
+    "implemented": 3,
+    "items": [
+      {
+        "id": "REQ-20",
+        "summary": "Replace the business name “Maa Bhagwati Tour And Travel” with the exact new name “Shree Ram Holidays – Tour & Travel Company” across all visible UI surfaces (e.g., top navigation brand text, footer business name/copyright text, and any other section copy that mentions the old business name).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/marketing/TopNav.tsx",
+          "frontend/src/components/marketing/Footer.tsx",
+          "frontend/src/components/marketing/sections/AboutSection.tsx",
+          "frontend/src/components/marketing/sections/ReviewsSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/marketing/TopNav.tsx",
+          "frontend/src/components/marketing/Footer.tsx",
+          "frontend/src/components/marketing/sections/AboutSection.tsx",
+          "frontend/src/components/marketing/sections/ReviewsSection.tsx"
+        ]
+      },
+      {
+        "id": "REQ-21",
+        "summary": "Update all SEO-facing metadata to use the new business name “Shree Ram Holidays – Tour & Travel Company”, including the HTML <title>, meta description/OG/Twitter titles as applicable, and the LocalBusiness JSON-LD structured data name field.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html"
+        ],
+        "matchedFiles": [
+          "frontend/index.html"
+        ]
+      },
+      {
+        "id": "REQ-22",
+        "summary": "Update any accessibility/embedded content strings that reference the old business name (for example, the Google Maps iframe title in the Contact section) to use “Shree Ram Holidays – Tour & Travel Company”.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/marketing/sections/ContactSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/marketing/sections/ContactSection.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "caffeine.lock.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/components/marketing/Footer.tsx",
+    "frontend/src/components/marketing/TopNav.tsx",
+    "frontend/src/components/marketing/sections/AboutSection.tsx",
+    "frontend/src/components/marketing/sections/ContactSection.tsx",
+    "frontend/src/components/marketing/sections/ReviewsSection.tsx",
+    "frontend/src/config.ts",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

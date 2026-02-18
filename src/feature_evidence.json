@@ -1,0 +1,62 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-the-business-name-maa-bhagwati-tour-and-travel-with-the-exact-new-name-shree-ram-holidays-tour-travel-company-across-all-visible-ui-surfaces-e-g-top-navigation-brand-text-footer-business-name-copyright-text-and-any-other-section-copy-that-mentions-the-old-business-name",
+      "featureTitle": "Replace the business name “Maa Bhagwati Tour And Travel” with the exact new name “Shree Ram Holidays – Tour & Travel Company” across all visible UI surfaces (e.g., top navigation brand text, footer business name/copyright text, and any other section copy that mentions the old business name).",
+      "files": [
+        "frontend/src/components/marketing/Footer.tsx",
+        "frontend/src/components/marketing/TopNav.tsx",
+        "frontend/src/components/marketing/sections/AboutSection.tsx",
+        "frontend/src/components/marketing/sections/ReviewsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-20"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-all-seo-facing-metadata-to-use-the-new-business-name-shree-ram-holidays-tour-travel-company-including-the-html-title-meta-description-og-twitter-titles-as-applicable-and-the-localbusiness-json-ld-structured-data-name-field",
+      "featureTitle": "Update all SEO-facing metadata to use the new business name “Shree Ram Holidays – Tour & Travel Company”, including the HTML <title>, meta description/OG/Twitter titles as applicable, and the LocalBusiness JSON-LD structured data name field.",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-21"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-any-accessibility-embedded-content-strings-that-reference-the-old-business-name-for-example-the-google-maps-iframe-title-in-the-contact-section-to-use-shree-ram-holidays-tour-travel-company",
+      "featureTitle": "Update any accessibility/embedded content strings that reference the old business name (for example, the Google Maps iframe title in the Contact section) to use “Shree Ram Holidays – Tour & Travel Company”.",
+      "files": [
+        "frontend/src/components/marketing/sections/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

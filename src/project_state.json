@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Build a modern, clean, mobile-responsive, SEO-optimized one-page website for Shree Ram Holidays – Tour & Travel Company (Katra, J&K) focused on high booking conversion for tours and taxi services.",
+  "architectural_notes": [
+    "Single-page layout with sections in the specified order and repeated clear CTAs (Call Now, WhatsApp Booking, Book Now).",
+    "SEO-first implementation: keyword targeting (e.g., Katra Taxi Service, Vaishno Devi Tour Package, Best Travel Agency in Katra, Katra to Kashmir Taxi), fast loading, mobile-friendly responsive design.",
+    "Contact section must include full business address, phone/WhatsApp, email, and Google Map embed.",
+    "Support custom domain mapping (GoDaddy DNS + IC domain verification) once the live .icp0.io canister URL is available."
+  ],
+  "known_issues": [
+    "Live canister URL (.icp0.io) not yet available / draft app expired, blocking custom domain DNS setup."
+  ],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-build-a-modern-clean-mobile-responsive-one-page-website-for-the-indian-travel-agency-maa-bhagwati-tour-and-travel-with-conversion-focused-ctas-and-the-following-sections-rendered-in-this-exact-order-1-hero-2-about-us-3-tour-packages-4-taxi-travel-services-5-vehicle-fleet-6-why-choose-us-7-popular-routes-8-customer-reviews-9-travel-gallery-10-contact",
+      "title": "Build a modern, clean, mobile-responsive one-page website for the Indian travel agency “Maa Bhagwati Tour And Travel” with conversion-focused CTAs and the following sections rendered in this exact order: (1) Hero, (2) About Us, (3) Tour Packages, (4) Taxi & Travel Services, (5) Vehicle Fleet, (6) Why Choose Us, (7) Popular Routes, (8) Customer Reviews, (9) Travel Gallery, (10) Contact.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-hero-section-content-and-ctas-headline-that-includes-best-katra-taxi-service-tour-packages-a-subheading-mentioning-vaishno-devi-kashmir-himachal-and-leh-ladakh-a-prominent-call-now-button-linking-to-tel-919906109003-a-prominent-whatsapp-booking-button-linking-to-https-wa-me-919906109003-and-a-travel-themed-background-image",
+      "title": "Implement the Hero section content and CTAs: headline that includes “Best Katra Taxi Service & Tour Packages”, a subheading mentioning Vaishno Devi, Kashmir, Himachal, and Leh Ladakh, a prominent “Call Now” button linking to tel:+919906109003, a prominent “WhatsApp Booking” button linking to https://wa.me/919906109003, and a travel-themed background image.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-about-us-section-describing-the-business-as-a-trusted-local-katra-travel-agency-with-experienced-drivers-safe-and-affordable-travel-and-a-focus-on-families-and-pilgrims",
+      "title": "Implement the About Us section describing the business as a trusted local Katra travel agency with experienced drivers, safe and affordable travel, and a focus on families and pilgrims.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-tour-packages-section-with-separate-package-cards-and-short-descriptions-for-katra-vaishno-devi-tour-packages-kashmir-tour-packages-srinagar-gulmarg-pahalgam-himachal-pradesh-tour-packages-manali-shimla-dharamshala-leh-ladakh-adventure-tours-pangong-lake-nubra-valley-amritsar-religious-tours-golden-temple-wagah-border-each-card-must-have-a-book-now-cta-that-routes-to-booking-via-whatsapp-https-wa-me-919906109003-and-or-scrolls-to-contact",
+      "title": "Implement the Tour Packages section with separate package cards and short descriptions for: Katra Vaishno Devi Tour Packages; Kashmir Tour Packages (Srinagar, Gulmarg, Pahalgam); Himachal Pradesh Tour Packages (Manali, Shimla, Dharamshala); Leh Ladakh Adventure Tours (Pangong Lake, Nubra Valley); Amritsar Religious Tours (Golden Temple, Wagah Border). Each card must have a “Book Now” CTA that routes to booking via WhatsApp (https://wa.me/919906109003) and/or scrolls to Contact.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-taxi-travel-services-section-listing-katra-taxi-service-airport-railway-pickup-and-drop-local-sightseeing-family-tours-honeymoon-packages-group-tours-and-customized-travel-planning",
+      "title": "Implement the Taxi & Travel Services section listing: Katra Taxi Service, Airport & Railway Pickup and Drop, Local Sightseeing, Family Tours, Honeymoon Packages, Group Tours, and Customized Travel Planning.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-vehicle-fleet-section-listing-vehicle-types-sedan-suv-innova-tempo-traveller-and-emphasizing-clean-ac-vehicles-and-professional-drivers-optionally-with-icons-visuals",
+      "title": "Implement the Vehicle Fleet section listing vehicle types (Sedan, SUV, Innova, Tempo Traveller) and emphasizing clean AC vehicles and professional drivers, optionally with icons/visuals.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-why-choose-us-section-with-clear-benefit-bullets-local-travel-experts-affordable-pricing-safe-travel-24-7-support-trusted-service",
+      "title": "Implement the Why Choose Us section with clear benefit bullets: Local travel experts, Affordable pricing, Safe travel, 24/7 support, Trusted service.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-popular-routes-section-listing-katra-to-srinagar-taxi-jammu-to-katra-pickup-katra-to-amritsar-katra-to-manali-and-leh-ladakh-road-trips-each-route-should-have-a-conversion-cta-call-and-or-whatsapp",
+      "title": "Implement the Popular Routes section listing: Katra to Srinagar Taxi, Jammu to Katra Pickup, Katra to Amritsar, Katra to Manali, and Leh Ladakh Road Trips. Each route should have a conversion CTA (call and/or WhatsApp).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-customer-reviews-section-with-realistic-looking-5-star-travel-service-reviews-names-initials-short-review-text-star-rating-visuals",
+      "title": "Implement the Customer Reviews section with realistic-looking 5-star travel service reviews (names/initials, short review text, star rating visuals).",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-travel-gallery-section-showing-images-representing-vaishno-devi-kashmir-leh-ladakh-himachal-and-travel-vehicles-use-optimized-responsive-images-lazy-loading-where-appropriate",
+      "title": "Implement the Travel Gallery section showing images representing Vaishno Devi, Kashmir, Leh Ladakh, Himachal, and travel vehicles; use optimized, responsive images (lazy-loading where appropriate).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-contact-section-with-the-exact-business-details-business-name-maa-bhagwati-tour-and-travel-address-tea-garden-new-bus-stand-katra-jammu-and-kashmir-india-182301-phone-whatsapp-91-9906109003-email-nakul-vd-gmail-com-include-a-whatsapp-booking-button-linking-to-https-wa-me-919906109003-and-embed-google-maps-for-the-location",
+      "title": "Implement the Contact section with the exact business details: Business Name: Maa Bhagwati Tour And Travel; Address: Tea Garden, New Bus Stand, Katra, Jammu and Kashmir, India – 182301; Phone/WhatsApp: +91 9906109003; Email: nakul.vd@gmail.com; include a WhatsApp booking button linking to https://wa.me/919906109003 and embed Google Maps for the location.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-on-page-seo-best-practices-for-a-one-page-react-site-set-an-seo-friendly-page-title-and-meta-description-include-keyword-focused-headings-and-section-copy-using-the-keywords-katra-taxi-service-vaishno-devi-tour-package-best-travel-agency-in-katra-and-katra-to-kashmir-taxi-ensure-a-single-h1-and-add-structured-data-json-ld-for-a-local-business-with-the-provided-name-address-phone-and-email",
+      "title": "Apply on-page SEO best practices for a one-page React site: set an SEO-friendly page title and meta description, include keyword-focused headings and section copy using the keywords “Katra Taxi Service”, “Vaishno Devi Tour Package”, “Best Travel Agency in Katra”, and “Katra to Kashmir Taxi”, ensure a single H1, and add structured data (JSON-LD) for a local business with the provided name, address, phone, and email.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-conversion-focused-ui-patterns-across-the-page-repeated-ctas-call-whatsapp-book-now-in-hero-and-at-least-two-additional-sections-strong-button-styling-and-a-mobile-friendly-sticky-call-bar-or-equivalent-persistent-cta-on-small-screens",
+      "title": "Ensure conversion-focused UI patterns across the page: repeated CTAs (Call/WhatsApp/Book Now) in Hero and at least two additional sections, strong button styling, and a mobile-friendly sticky call bar or equivalent persistent CTA on small screens.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-optimize-performance-for-fast-loading-compress-optimize-images-avoid-unnecessary-heavy-libraries-use-responsive-image-sizing-and-ensure-good-lighthouse-style-fundamentals-no-large-layout-shifts-from-images-reasonable-initial-load",
+      "title": "Optimize performance for fast loading: compress/optimize images, avoid unnecessary heavy libraries, use responsive image sizing, and ensure good Lighthouse-style fundamentals (no large layout shifts from images; reasonable initial load).",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-adopt-and-apply-a-coherent-visual-theme-consistent-with-a-trustworthy-professional-travel-company-mountains-pilgrimage-vibes-using-a-modern-neutral-palette-avoid-blue-purple-strong-typography-hierarchy-consistent-spacing-and-clean-card-layouts-across-all-sections",
+      "title": "Adopt and apply a coherent visual theme consistent with a trustworthy, professional travel company (mountains/pilgrimage vibes) using a modern neutral palette (avoid blue/purple), strong typography hierarchy, consistent spacing, and clean card layouts across all sections.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-generated-image-assets-to-the-frontend-as-static-files-under-frontend-public-assets-generated-and-render-them-in-the-hero-and-travel-gallery-sections-and-optionally-fleet-without-routing-image-delivery-through-the-backend",
+      "title": "Add the generated image assets to the frontend as static files under frontend/public/assets/generated and render them in the Hero and Travel Gallery sections (and optionally Fleet) without routing image delivery through the backend.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-simple-contact-form-to-the-existing-contact-section-so-visitors-can-send-direct-inquiries-from-the-one-page-site-in-addition-to-existing-call-whatsapp-email-contact-options-the-form-must-use-english-user-facing-text-and-include-at-least-full-name-phone-whatsapp-number-email-optional-message-and-a-submit-button",
+      "title": "Add a simple contact form to the existing Contact section so visitors can send direct inquiries from the one-page site (in addition to existing Call/WhatsApp/Email contact options). The form must use English user-facing text and include at least: Full Name, Phone/WhatsApp Number, Email (optional), Message, and a Submit button.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-wire-the-contact-form-ui-to-the-backend-using-the-existing-actor-setup-frontend-src-hooks-useactor-ts-and-react-query-mutation-patterns-so-submissions-are-sent-to-the-canister-and-the-ui-reflects-loading-success-error-states",
+      "title": "Wire the Contact form UI to the backend using the existing actor setup (frontend/src/hooks/useActor.ts) and React Query mutation patterns, so submissions are sent to the canister and the UI reflects loading/success/error states.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-business-name-maa-bhagwati-tour-and-travel-with-the-exact-new-name-shree-ram-holidays-tour-travel-company-across-all-visible-ui-surfaces-e-g-top-navigation-brand-text-footer-business-name-copyright-text-and-any-other-section-copy-that-mentions-the-old-business-name",
+      "title": "Replace the business name “Maa Bhagwati Tour And Travel” with the exact new name “Shree Ram Holidays – Tour & Travel Company” across all visible UI surfaces (e.g., top navigation brand text, footer business name/copyright text, and any other section copy that mentions the old business name).",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-seo-facing-metadata-to-use-the-new-business-name-shree-ram-holidays-tour-travel-company-including-the-html-title-meta-description-og-twitter-titles-as-applicable-and-the-localbusiness-json-ld-structured-data-name-field",
+      "title": "Update all SEO-facing metadata to use the new business name “Shree Ram Holidays – Tour & Travel Company”, including the HTML <title>, meta description/OG/Twitter titles as applicable, and the LocalBusiness JSON-LD structured data name field.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-any-accessibility-embedded-content-strings-that-reference-the-old-business-name-for-example-the-google-maps-iframe-title-in-the-contact-section-to-use-shree-ram-holidays-tour-travel-company",
+      "title": "Update any accessibility/embedded content strings that reference the old business name (for example, the Google Maps iframe title in the Contact section) to use “Shree Ram Holidays – Tour & Travel Company”.",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a fully SEO-optimized one-page travel agency website with conversion-focused design and required sections (Hero, About, Tour Packages, Services, Fleet, Why Choose Us, Popular Routes, Reviews, Gallery, Contact with map)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add a simple contact form for direct inquiries on the one-page site (in addition to existing contact details/WhatsApp/Call CTAs)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Implement backend support to receive and persist contact form submissions in the single Motoko actor (backend/main.mo). Store inquiries in stable state so they survive upgrades, and return a success response to the frontend after saving.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Connect the GoDaddy domain (maabagwatitourandtravles.in) to the deployed Internet Computer website (custom domain DNS + domain verification/asset configuration)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Rename the business across the entire website and SEO content to “Shree Ram Holidays – Tour & Travel Company” (replace all instances of Maa Bhagwati Tour And Travel)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Maa Bhagwati Tour And Travel One-Page Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

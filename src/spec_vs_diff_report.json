@@ -1,0 +1,38 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T06:05:59.871Z",
+  "summary": "REQ-20 and REQ-21 appear implemented: the top navigation brand and footer business name/copyright were updated, and frontend/index.html SEO metadata (title, OG/Twitter titles, JSON-LD LocalBusiness name) uses the new business name. REQ-22 (Google Maps iframe title/accessibility strings) cannot be confirmed from the provided diff summary because the ContactSection is truncated where the map iframe would typically appear.",
+  "missing_requirements": [
+    {
+      "id": "REQ-22",
+      "requirement": "Update any accessibility/embedded content strings that reference the old business name (e.g., Google Maps iframe title) to use “Shree Ram Holidays – Tour & Travel Company”.",
+      "reason": "The only relevant file shown is frontend/src/components/marketing/sections/ContactSection.tsx, but the diff content is truncated before any embedded Google Maps iframe/title attributes are visible, so the required iframe title update cannot be verified from the provided evidence.",
+      "evidence": [
+        "frontend/src/components/marketing/sections/ContactSection.tsx (truncated)",
+        "frontend-file-summaries.txt (mentions updated iframe title but not authoritative code evidence)"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Updated/added internal project documentation/state summaries to reference the new business name (not part of the explicitly requested rename/SEO/accessibility requirements).",
+      "reason": "The BuildRequest requirements are limited to UI visible text, SEO metadata in index.html, and accessibility/embedded strings; updating project_state.json and frontend-file-summaries.txt is not requested.",
+      "evidence": [
+        "project_state.json (truncated)",
+        "frontend-file-summaries.txt (truncated)"
+      ]
+    }
+  ],
+  "confidence": 0.62,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/index.html",
+    "frontend/src/components/marketing/Footer.tsx",
+    "frontend/src/components/marketing/TopNav.tsx",
+    "frontend/src/components/marketing/sections/AboutSection.tsx",
+    "frontend/src/components/marketing/sections/ContactSection.tsx",
+    "frontend/src/components/marketing/sections/ReviewsSection.tsx",
+    "project_state.json"
+  ]
+}

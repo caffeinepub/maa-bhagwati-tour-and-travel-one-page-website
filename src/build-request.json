@@ -1,0 +1,91 @@
+{
+  "kind": "build_request",
+  "title": "Rename business to Shree Ram Holidays – Tour & Travel Company",
+  "projectName": "Shree Ram Holidays",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-20",
+      "text": "Replace the business name “Maa Bhagwati Tour And Travel” with the exact new name “Shree Ram Holidays – Tour & Travel Company” across all visible UI surfaces (e.g., top navigation brand text, footer business name/copyright text, and any other section copy that mentions the old business name).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-rename",
+          "msg-user-second-one"
+        ],
+        "quotes": [
+          "Change the name to shree ram holidays ( Tour and Travel company",
+          "Second one is good"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Top navigation brand text shows “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "Footer business name and copyright text show “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "No remaining instances of the text “Maa Bhagwati Tour And Travel” appear in the rendered UI."
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "text": "Update all SEO-facing metadata to use the new business name “Shree Ram Holidays – Tour & Travel Company”, including the HTML <title>, meta description/OG/Twitter titles as applicable, and the LocalBusiness JSON-LD structured data name field.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-rename",
+          "msg-user-second-one"
+        ],
+        "quotes": [
+          "Change the name to shree ram holidays ( Tour and Travel company",
+          "Second one is good"
+        ]
+      },
+      "acceptanceCriteria": [
+        "frontend/index.html <title> uses “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "OpenGraph and Twitter title tags (where present) use “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "The JSON-LD LocalBusiness \"name\" field in frontend/index.html is updated to “Shree Ram Holidays – Tour & Travel Company”."
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "text": "Update any accessibility/embedded content strings that reference the old business name (for example, the Google Maps iframe title in the Contact section) to use “Shree Ram Holidays – Tour & Travel Company”.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-rename",
+          "msg-user-second-one"
+        ],
+        "quotes": [
+          "Change the name to shree ram holidays ( Tour and Travel company",
+          "Second one is good"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Google Maps iframe title in the Contact section uses “Shree Ram Holidays – Tour & Travel Company” (instead of the old name).",
+        "No remaining instances of “Maa Bhagwati Tour And Travel” exist in static attributes like title/aria-label/alt where they refer to the business name."
+      ]
+    }
+  ],
+  "constraints": [
+    "Use English for any user-facing text.",
+    "Do not modify files under frontend/src/components/ui or other paths listed in frontend.immutablePaths.",
+    "Keep the existing phone number and WhatsApp link unchanged (tel:+919906109003 and https://wa.me/919906109003)."
+  ],
+  "nonGoals": [
+    "Connecting the GoDaddy domain (maabagwatitourandtravles.in) to the live canister.",
+    "Changing business address, phone/WhatsApp number, or email.",
+    "Implementing or modifying backend contact form persistence (not requested in the latest message)."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}
